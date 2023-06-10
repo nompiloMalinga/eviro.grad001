@@ -1,0 +1,6 @@
+file parser to convert the contents of the file and
+store the records into a database. The base64 image data is processed from the flat file and converted into a
+physical file with the format as prescribed in the flat file.
+Theres an  httpImageLink created which is exposed via a rest endpoint, which gives
+access to the physical image file that was converted from the flat file. 
+example of get request used format http://localhost:8080/v1/api/image/Momentum/Health/image.jpeg
